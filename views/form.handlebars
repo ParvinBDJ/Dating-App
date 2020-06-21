@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Hey, {{ info.name }}! Which movie do you like the best?</h1>
+    <h1>Hey, {{ info.name }}!</h1>
+    <h3> Which movie do you like the best?</h3>
     <form id="form" method="POST" action="/volgendeFilm-succes">
     <label for="movie1">
         <input type="radio" id="movie1" name='movie' value="The Lighthouse">

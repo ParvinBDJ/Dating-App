@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
 </head>
 <body>
     <h1>{{ info.name }}, your choices are:</h1>
-    <h3>1: {{ info.movieChoice1 }}</h3> <a href="">Verander de keuze</a>
-    <h3>2: {{ info.movieChoice2 }} </h3> <a href="">Verander de keuze</a>
+    <h3>1: {{ info.movieChoice1 }}</h3>
+    <h3>2: {{ info.movieChoice2 }} </h3>
  
     <form action="/delete" method="POST">
     <label for="delete"><h2>Would you like to delete your account?</h2>
